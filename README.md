@@ -1,2 +1,2 @@
 # SkeuoDTM
-## A Skeuomophism Theme for BetterDiscord.
+### A Skeuomophism Theme for BetterDiscord.
