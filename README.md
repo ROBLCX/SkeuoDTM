@@ -5,4 +5,5 @@ SkeuoDTM is a combination of [DTM-08](https://github.com/XYZenix/XYZenixThemes/)
 
 ## Credits
 **Marda33**: For [DTM-08](https://github.com/XYZenix/XYZenixThemes/).
+<br/>
 **XYZenix**: For [SkeuoCord](https://github.com/Marda33/SkeuoCord/).
