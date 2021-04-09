@@ -1,12 +1,4 @@
-/**
- * @name CUM PENIS
- * @author CUM PENIS
- * @version CUM PENIS
- * @description CUM PENIS
- * @websiteCUM PENIS
- * @websiteCUM PENIS
- * @source  CUM PENIS
-*/
+
 .item-PXvHYJ, .theme-dark #bd-settings-sidebar .ui-tab-bar-item {background: linear-gradient(#525461, #2f3238);border-radius: 0;border: solid 1px;border-image: linear-gradient(#656775, #17181B) 1}
 .item-PXvHYJ[aria-disabled="true"],.item-PXvHYJ[aria-disabled="true"]:hover,.item-PXvHYJ[aria-disabled="true"]:active {
     background: none!important;
@@ -30,7 +22,7 @@ html *
 }
 
 :root {
-  --theme-version: "Alpha 0.4";
+  --theme-version: "Alpha 0.5";
   --theme-verdate: "9 April 2021";
   --login-background: url(https://roblcx.github.io/SkeuoDTM/logonbg.png);
 }
