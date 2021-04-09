@@ -1,7 +1,7 @@
 # SkeuoDTM (W.I.P)
-### A Skeuomophism Theme for BetterDiscord.
+### A Skeuomophic Theme for Discord.
 
-SkeuoDTM is a combination of [DTM-08](https://github.com/XYZenix/XYZenixThemes/) and [SkeuoCord](https://github.com/Marda33/SkeuoCord/). It is designed to give Discord's UI a 2006-2012 aesthetic. Combining two themes together for the best look.
+SkeuoDTM is a combination of [DTM-08](https://github.com/XYZenix/XYZenixThemes/) and [SkeuoCord](https://github.com/Marda33/SkeuoCord/). It is designed to give Discord's UI a skeuomophic look and feel. Combining two themes together for the best look.
 
 ## Credits
 **XYZenix**: For [DTM-08](https://github.com/XYZenix/XYZenixThemes/).
