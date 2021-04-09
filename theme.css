@@ -790,11 +790,7 @@
   background-color: #212226;
   box-shadow: 0 0 6px 4px #212226
 }
-.create-guild-container.deprecated .action {
-  background: linear-gradient(#292c30 0%, #25272a 45%, #1c1e20 45%, #2a2c30 100%);
-  box-shadow: 0 1px 8px;
-  border-radius: 10px
-}
+
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
   background: linear-gradient(#36393e, #2a2c30);
   border: none;
@@ -812,44 +808,7 @@
 .avatar-uploader-inner {
   border-color: #4a5158
 }
-.create-guild-container.deprecated .form.deprecated .form-inner {
-  background: transparent !important
-}
-.regionSelect-3lf4eE button, .regionSelect-3lf4eE .regionSelectInner-24f4Ce {
-  border-color: #151617
-}
-.create-guild-container.deprecated, .regionSelectModal-12e-57 {
-  background: linear-gradient(#292c30 0%, #25272a 45%, #1c1e20 45%, #2a2c30 100%)
-}
-.create-guild-container.deprecated .create-or-join .actions .or {
-  background: transparent;
-  color: white
-}
-.create-guild-container.deprecated .action .action-body {
-  color: white
-}
-.create-guild-container.deprecated .action.create .action-icon, .create-guild-container.deprecated .action.join .action-icon {
-  filter: invert(0.9) hue-rotate(180deg)
-}
-.create-guild-container.deprecated .action.create .btn {
-  background: linear-gradient(#849ae6 0%, #7289da 50%, #6477b9 50%, #7289da 100%);
-  box-shadow: 0 1px 8px black
-}
-.create-guild-container.deprecated .action:hover.create .btn {
-  background: linear-gradient(#96abf1 0%, #89a2f7 50%, #788eda 50%, #859df1 100%)
-}
-.create-guild-container.deprecated .action:active.create .btn {
-  background: linear-gradient(#849ae6 0%, #7289da 50%, #6477b9 50%, #7289da 100%)
-}
-.create-guild-container.deprecated .action.join .btn {
-  background: linear-gradient(#4bc58e 0%, #3ca374 50%, #348c64 50%, #3ca374 100%)
-}
-.create-guild-container.deprecated .action:hover.join .btn {
-  background: linear-gradient(#6adea9 0%, #4abf8a 50%, #41a577 50%, #3aa775 100%)
-}
-.create-guild-container.deprecated .action:active.join .btn {
-  background: linear-gradient(#439670 0%, #3d9a70 50%, #368460 50%, #277d56 100%)
-}
+
 .form-deprecated .form-actions, .form.deprecated .form-actions {
   background: #282a2e;
   border-top: solid 1px #1c1e20
