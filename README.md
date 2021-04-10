@@ -5,8 +5,6 @@ SkeuoDTM is a combination of [DTM-08](https://github.com/XYZenix/XYZenixThemes/)
 
 ## Issues
 - Light Mode
-- Replies
-- Profile Pages
 - Status Indicators
 <br/>
 If you find any issues with SkeouCord, please submit a issue.
