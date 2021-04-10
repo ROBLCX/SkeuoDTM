@@ -11,7 +11,7 @@
   --login-background: url(https://roblcx.github.io/SkeuoDTM/logonbg.png);
 }
 
-/* DTM 12 Buttons (why do the dtm12 sidebar buttons dont work in light mode)
+/* DTM 12 Buttons (why do the dtm12 sidebar buttons dont work in light mode)*/
 .item-PXvHYJ, .theme-dark #bd-settings-sidebar .ui-tab-bar-item {
 	background: linear-gradient(#525461, #2f3238);
 	border-radius: 0;border: solid 1px;
@@ -32,7 +32,7 @@ html *
    font-family: Segoe UI !important;
     
 }
-*/
+
 
 /*
   DTM 08 
