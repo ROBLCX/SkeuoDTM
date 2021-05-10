@@ -3,9 +3,12 @@
 
 SkeuoDTM is a combination of [DTM-08](https://github.com/XYZenix/XYZenixThemes/), [DTM-12](https://github.com/XYZenix/XYZenixThemes/) and [SkeuoCord](https://github.com/Marda33/SkeuoCord/). It is designed to give Discord's UI a skeuomophic look and feel. Combining two themes together for the best look.
 
-## Issues
+## Issues/Todo
 - Light Mode
 - Status Indicators
+- File Upload Progressbar
+- Padding tweaks
+- Color tweaks for the rebrand
 <br/>
 If you find any issues with SkeouCord, please submit a issue.
 
