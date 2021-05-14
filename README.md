@@ -6,9 +6,6 @@ SkeuoDTM is a combination of [DTM-08](https://github.com/XYZenix/XYZenixThemes/)
 ## Issues/Todo
 - Light Mode
 - Status Indicators
-- File Upload Progressbar
-- Padding tweaks
-- Color tweaks for the rebrand
 <br/>
 If you find any issues with SkeouCord, please submit a issue.
 
