@@ -4,6 +4,226 @@
  * @version SKDTM
 
 */
+:root {
+  --theme-version: "Alpha 0.8";
+  --theme-verdate: "14/5/2021 (DD/MM/YYYY)";
+  --login-background: url(https://roblcx.github.io/SkeuoDTM/logonbg.png);
+}
+body {
+  /* Revert new green to old color */
+  --old-green: #43b581 !important ;
+  --info-positive-foreground: var(--old-green) !important ;
+  --status-positive-background: var(--old-green) !important ;
+  --text-positive: var(--old-green) !important ;
+
+  /* Revert new red to old color */
+  --old-red: #f04747 !important ;
+  --text-danger: var(--old-red) !important ;
+  --info-danger-foreground: var(--old-red) !important ;
+  --status-danger-background: var(--old-red) !important ;
+
+  /* Revert to old font var */
+  --font-display: var(--font-primary) !important ;
+
+  /* Found in Discord's CSS file: oldBrand vs newBrand HTML class - here we force old brand vars via copying */
+  --brand-experiment-100: #f8f9fd !important ;
+  --brand-experiment-130: #f2f4fc !important ;
+  --brand-experiment-160: #ebeefa !important ;
+  --brand-experiment-200: #e3e7f8 !important ;
+  --brand-experiment-230: #dae0f5 !important ;
+  --brand-experiment-260: #d1d9f3 !important ;
+  --brand-experiment-300: #c7d0f0 !important ;
+  --brand-experiment-330: #b5c1ec !important ;
+  --brand-experiment-360: #a5b3e7 !important ;
+  --brand-experiment-400: #8ea1e1 !important ;
+  --brand-experiment-430: #869adf !important ;
+  --brand-experiment-460: #7d92dd !important ;
+
+  --brand-experiment: #7289da !important ;
+
+  --brand-experiment-500: #7289da !important ;
+  --brand-experiment-530: #687dc6 !important ;
+  --brand-experiment-560: #5c6fb1 !important ;
+  --brand-experiment-600: #4e5d94 !important ;
+  --brand-experiment-630: #435180 !important ;
+  --brand-experiment-660: #3b4770 !important ;
+  --brand-experiment-700: #2e3757 !important ;
+  --brand-experiment-730: #2b3352 !important ;
+  --brand-experiment-760: #272f4b !important ;
+  --brand-experiment-800: #222941 !important ;
+  --brand-experiment-830: #1a2032 !important ;
+  --brand-experiment-860: #111521 !important ;
+  --brand-experiment-900: #06070b !important ;
+
+  --brand-experiment-05a: rgba(114,137,218,0.05) !important ;
+  --brand-experiment-10a: rgba(114,137,218,0.1) !important ;
+  --brand-experiment-15a: rgba(114,137,218,0.15) !important ;
+  --brand-experiment-20a: rgba(114,137,218,0.2) !important ;
+  --brand-experiment-25a: rgba(114,137,218,0.25) !important ;
+  --brand-experiment-30a: rgba(114,137,218,0.3) !important ;
+  --brand-experiment-35a: rgba(114,137,218,0.35) !important ;
+  --brand-experiment-40a: rgba(114,137,218,0.4) !important ;
+  --brand-experiment-45a: rgba(114,137,218,0.45) !important ;
+  --brand-experiment-50a: rgba(114,137,218,0.5) !important ;
+  --brand-experiment-55a: rgba(114,137,218,0.55) !important ;
+  --brand-experiment-60a: rgba(114,137,218,0.6) !important ;
+  --brand-experiment-65a: rgba(114,137,218,0.65) !important ;
+  --brand-experiment-70a: rgba(114,137,218,0.7) !important ;
+  --brand-experiment-75a: rgba(114,137,218,0.75) !important ;
+  --brand-experiment-80a: rgba(114,137,218,0.8) !important ;
+  --brand-experiment-85a: rgba(114,137,218,0.85) !important ;
+  --brand-experiment-90a: rgba(114,137,218,0.9) !important ;
+  --brand-experiment-95a: rgba(114,137,218,0.95) !important ;
+}
+
+/* Revert mentions */
+.wrapper-3WhCwL {
+  color: var(--brand-experiment-530)  !important ;
+  background: var(--brand-experiment-10a)  !important ;
+}
+
+.wrapper-3WhCwL:hover {
+  background: var(--brand-experiment-25a)  !important ;
+}
+
+/* Revert reactions */
+.reaction-1hd86g {
+  border-radius: .25rem !important ;
+  background: var(--background-modifier-selected) !important ;
+
+  border-color: transparent  !important ;
+
+  margin-right: 3px !important ;
+}
+
+.reaction-1hd86g .reactionCount-2mvXRV {
+  color: var(--text-muted) !important ; /* A11Y-- */
+}
+
+.reaction-1hd86g .reactionInner-15NvIl {
+  padding: 0 4.5px !important ;
+}
+
+/* Self reactions */
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+  color: var(--brand-experiment) !important ; /* A11Y-- */
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+  background-color: var(--brand-experiment-30a) !important ;
+}
+
+/* Reaction hover */
+.reaction-1hd86g:hover .reactionCount-2mvXRV {
+  color: var(--interactive-active)  !important ;
+}
+
+/* Revert loading tip title color */
+.tipTitle-GL9qAt {
+  color: var(--brand-experiment)  !important ;
+}
+
+/* Revert home icon */
+.homeIcon-FuNwkv > path {
+  d: path("M 20.6644 20 C 20.6644 20 19.8014 18.9762 19.0822 18.0714 C 22.2226 17.1905 23.4212 15.2381 23.4212 15.2381 C 22.4384 15.881 21.5034 16.3334 20.6644 16.6429 C 19.4658 17.1429 18.3151 17.4762 17.1884 17.6667 C 14.887 18.0953 12.7774 17.9762 10.9795 17.6429 C 9.61301 17.381 8.43836 17 7.45548 16.6191 C 6.90411 16.4048 6.30479 16.1429 5.70548 15.8096 C 5.63356 15.7619 5.56164 15.7381 5.48973 15.6905 C 5.44178 15.6667 5.41781 15.6429 5.39384 15.6191 C 4.96233 15.381 4.7226 15.2143 4.7226 15.2143 C 4.7226 15.2143 5.87329 17.1191 8.91781 18.0238 C 8.19863 18.9286 7.31164 20 7.31164 20 C 2.0137 19.8333 0 16.381 0 16.381 C 0 8.7144 3.45205 2.50017 3.45205 2.50017 C 6.90411 -0.07123 10.1884 0.000197861 10.1884 0.000197861 L 10.4281 0.285909 C 6.11301 1.52399 4.12329 3.40493 4.12329 3.40493 C 4.12329 3.40493 4.65068 3.11921 5.53767 2.71446 C 8.10274 1.59542 10.1404 1.2859 10.9795 1.21447 C 11.1233 1.19066 11.2432 1.16685 11.387 1.16685 C 12.8493 0.976379 14.5034 0.92876 16.2295 1.11923 C 18.5068 1.38114 20.9521 2.0478 23.4452 3.40493 C 23.4452 3.40493 21.5514 1.61923 17.476 0.381146 L 17.8116 0.000197861 C 17.8116 0.000197861 21.0959 -0.07123 24.5479 2.50017 C 24.5479 2.50017 28 8.7144 28 16.381 C 28 16.381 25.9623 19.8333 20.6644 20 Z M 9.51712 8.88106 C 8.15068 8.88106 7.07192 10.0715 7.07192 11.5239 C 7.07192 12.9763 8.17466 14.1667 9.51712 14.1667 C 10.8836 14.1667 11.9623 12.9763 11.9623 11.5239 C 11.9863 10.0715 10.8836 8.88106 9.51712 8.88106 Z M 18.2671 8.88106 C 16.9007 8.88106 15.8219 10.0715 15.8219 11.5239 C 15.8219 12.9763 16.9247 14.1667 18.2671 14.1667 C 19.6336 14.1667 20.7123 12.9763 20.7123 11.5239 C 20.7123 10.0715 19.6336 8.88106 18.2671 8.88106 Z") !important ;
+}
+
+/* Revert ping mention button being link colored (used to be brand) */
+.colorLink-2vG20E.size14-e6ZScH.mentionButton-3710-W {
+  color: var(--brand-experiment)  !important ;
+}
+
+/* Revert specific elements with old colors */
+
+/* Online status */
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"] {
+  fill: var(--old-green) !important ;
+}
+
+/* Online status (mobile) */
+.wrapper-3t9DeA rect.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+  fill: var(--old-green) !important ;
+}
+
+/* Online status (typing and other) */
+.wrapper-3t9DeA svg.cursorDefault-dsQJ1n > rect[fill="#3ba55c"] {
+  fill: var(--old-green) !important ;
+}
+
+/* Filled green buttons */
+.button-38aScr.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--old-green) !important ;
+}
+
+/* Filled red buttons */
+.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan {
+  background-color: var(--old-red) !important ;
+}
+
+/* Text input focus border color is now focus / link, change back to original brand color */
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+  border-color: var(--brand-experiment) !important ;
+}
+
+/* On switches to old green */
+.container-3auIfb[style="opacity: 1 !important ; background-color: rgb(59, 165, 92) !important ;"] {
+  background-color: var(--old-green)  !important ;
+}
+
+/* Restyle the create server and discovery buttons to the old green */
+.circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
+  color: var(--old-green) !important ;
+}
+.circleIconButton-1QV--U.circleButtonBase-2DCxIZ.selected-1JjBPm {
+  color: white !important ;
+  background-color: var(--old-green) !important ;
+}
+
+/* Fix misc SVGs that for some reason sometimes weren't targeted by the previous rules (particularly presence SVGs) */
+*[fill="#3ba55c"] {
+  fill: var(--old-green) !important ;
+}
+
+/* Fix the call icons in chat */
+/* .icon-2Po-VO {
+  background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/src/assets/call_icon.svg")  !important ;
+} */
+
+/* Fix the speaking ring around your avatar in the bottom left corner of your screen */
+.avatarSpeaking-2c8-9i {
+  box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136 !important ;
+}
+
+/* And fix speaking avatars in calls in general */
+.speaking-B2MXPi.border-Jn5IOt {
+  box-shadow: inset 0 0 0 2px var(--old-green), inset 0 0 0 3px #2f3136 !important ;
+}
+
+/* Revert new Nitro icon by setting item */
+.premiumTabItem-1QTfBr .icon-Zc-uZZ {
+  display: none !important ;
+}
+
+/* Color BD specific settings elements */
+.bd-addon-views .bd-view-button.selected, .bd-button {
+  background-color: var(--brand-experiment) !important ;
+}
+
+/* Verified check mark color */
+.verified-1eC5dy {
+  color: var(--old-green) !important ;
+}
+
+/* Server join icon to old green (arrow left to join system message) */
+.icon-2Po-VO.iconSize-2tmqqh[style='background-image: url("/assets/e06a573355c490f7ce6e3125ac01db81.svg") !important ;'] {
+  background-image: url("https://Goose-Nest.github.io/GT-RevertRebrand/src/assets/server_join_icon.svg")  !important ;
+}
+
+/* Green radio bars (privacy and safety settings) */
+.radioBar-bMNUI-[style="--radio-bar-accent-color:#3ba55c !important ; padding: 10px !important ;"] {
+  --radio-bar-accent-color: var(--old-green)  !important ;
+}
+
 @font-face {
     font-family: SegoeUI;
     src:
@@ -52,11 +272,6 @@
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
     font-weight: 700;
-}
-:root {
-  --theme-version: "Alpha 0.7";
-  --theme-verdate: "9 April 2021";
-  --login-background: url(https://roblcx.github.io/SkeuoDTM/logonbg.png);
 }
 
 /* DTM 12 Buttons (why do the dtm12 sidebar buttons dont work in light mode)*/
@@ -257,9 +472,9 @@ html *
   border: solid 1px #000
 }
 .theme-light .cardPrimary-1Hv-to, .theme-dark .codeRedemptionRedirect-1wVR4b, .theme-light .detailsBlock-FoDTGA {
-  background: linear-gradient(to bottom,#e2e2e2,#d8d8d8 50%,#cecece 50%,#cacaca) !important;
-  box-shadow: inset 0 0 0 1px #fffb;
-  border: solid 1px #999
+  background: linear-gradient(to bottom,#3b3d44,#2c2e33 50%,#2c2e33 50%,#232329) !important;
+  box-shadow: inset 0 0 0 1px #fff3;
+  border: solid 1px #000
 }
 .theme-dark .faded-3bns_w {
   text-shadow: 0 0 5px black;
@@ -735,7 +950,12 @@ html *
 }
 .theme-dark .wrapperAudio-1jDe0Q, .theme-dark .attachment-33OFj0 {
   background: linear-gradient(#232323 0%, #404040 50%, #353535 50%, #313131 100%);
-  box-shadow: 0 2px 10px 2px black
+-webkit-box-shadow: 0px 0px 15px -4px #000000; 
+box-shadow: 0px 0px 15px -4px #000000;
+}
+.repoList-9JnAPs>.contentTransitionWrap-3hqOEW>.contentRegionScroller-26nc1e.auto-Ge5KZx.scrollerBase-289Jih {
+	margin-right: 70px !important;
+	height: 100% !important;
 }
 .audioControls-2HsaU6 {
   background: linear-gradient(#2f2f2f, #191919)
@@ -1510,6 +1730,10 @@ img[src="/assets/bb7f752540c7f4c7039c6dd6b5dd052e.svg"] {
   box-shadow: inset 0 1px #fff4, 0 1px 5px #000;
   border-radius: 5px !important;
 }
+.scroller-3BxosC {
+	padding: 0.1!important;
+}
+
 .theme-light .descriptionBox-1EKQKL {
   background: linear-gradient(#ececec,#c1c1c1);
   border: solid 1px #fff;
@@ -5762,10 +5986,7 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAmCAIA
 	box-shadow: 0 0 2px 2px rgba(64,64,64,0.4), inset 0 0 1px 1px rgba(230,230,230,0.6);
 }
 
-.wrapper-3t9DeA img {
-	border-radius: 2px;
-	/*user avatar image radius*/
-}
+
 
 mask[id*="svg-mask-avatar-"] circle[r="0.5"] {
     r: 1 !important;
